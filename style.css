@@ -1,0 +1,29 @@
+html,
+body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #8cbee0);
+    background: linear-gradient(to right, #FFFFFF, #185267, #7fb4d8);
+    min-width: 400px;
+}
+
+.col-md-8 {
+    background-color: rgb(186, 178, 208);
+    border: 2px solid rgb(85, 85, 152);
+    border-radius: 8px;
+    margin: 4px;
+}
+
+#ville {
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-size: 4em;
+}
+
+#changer {
+    background: rgba(92, 135, 162, 0.3);
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 4px;
+}
